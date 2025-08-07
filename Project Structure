@@ -1,0 +1,11 @@
+App.js
+firebaseConfig.js
+screens/
+    LoginScreen.js
+    HomeScreen.js
+    RoomScreen.js
+    ProfileScreen.js
+components/
+    VideoPlayer.js
+    ChatBox.js
+package.json
