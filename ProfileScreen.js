@@ -8,3 +8,14 @@ export default function ProfileScreen() {
     </View>
   );
 }
+import React from "react";
+import { View, Text } from "react-native";
+import { auth } from "./firebaseConfig";
+
+export default function ProfileScreen() {
+  return (
+    <View style={{ padding: 20 }}>
+      <Text>User: {auth.currentUser?.email}</Text>
+    </View>
+  );
+}
