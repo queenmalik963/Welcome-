@@ -10,3 +10,15 @@ export default function HomeScreen({ navigation }) {
     </View>
   );
 }
+import React from "react";
+import { View, Button } from "react-native";
+
+export default function HomeScreen({ navigation }) {
+  return (
+    <View style={{ padding: 20 }}>
+      <Button title="Profile" onPress={() => navigation.navigate("Profile")} />
+      <Button title="Video Room" onPress={() => navigation.navigate("Video")} />
+      <Button title="Chat" onPress={() => navigation.navigate("Chat")} />
+    </View>
+  );
+}
